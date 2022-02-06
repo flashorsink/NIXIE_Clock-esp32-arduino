@@ -3,7 +3,7 @@
 
 <p float="left">
   <img src="https://github.com/flashorsink/NIXIE_Clock-esp32-arduino/blob/main/%E6%95%B4%E4%BD%93%E5%9B%BE.jpg" width="600" />
-  <img src="https://github.com/flashorsink/NIXIE_Clock-esp32-arduino/blob/main/Blinker.jpg" height="230" /> 
+  <img src="https://github.com/flashorsink/NIXIE_Clock-esp32-arduino/blob/main/Blinker.jpg" height="330" /> 
 </p>
 
 ## 程序
