@@ -1,7 +1,8 @@
 # NIXIE_Clock-esp32-arduino
 使用esp32，8管，自动休眠、氛围灯、休眠和唤醒动画、音乐闹钟、基于Blinker的蓝牙控制  
 
-![整体图](https://github.com/flashorsink/NIXIE_Clock-esp32-arduino/blob/main/%E6%95%B4%E4%BD%93%E5%9B%BE.jpg)
+![整体图](https://github.com/flashorsink/NIXIE_Clock-esp32-arduino/blob/main/%E6%95%B4%E4%BD%93%E5%9B%BE.jpg) 
+![Blinker](https://github.com/flashorsink/NIXIE_Clock-esp32-arduino/blob/main/Blinker.jpg)
 ## 程序
 
 本程序使用esp32 arduino，请使用1.0.6版本，2.0.0及以上版本不兼容无法编译
