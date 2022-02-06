@@ -6,6 +6,8 @@
   <img src="https://github.com/flashorsink/NIXIE_Clock-esp32-arduino/blob/main/Blinker.jpg" height="330" /> 
 </p>
 
+演示视频https://www.bilibili.com/video/BV1Kr4y1h7Qn/
+
 ## 程序
 
 本程序使用esp32 arduino，请使用1.0.6版本，2.0.0及以上版本不兼容无法编译
