@@ -16,7 +16,7 @@ esp32 arduino包请使用1.0.6版本，2.0.0及以上版本不兼容无法编译
 
 [WS2812](https://github.com/Freenove/Freenove_WS2812_Lib_for_ESP32)
 
-[AUDIO use MAX9835）](https://github.com/schreibfaul1/ESP32-audioI2S)
+[AUDIO use MAX9835](https://github.com/schreibfaul1/ESP32-audioI2S)
 
 ## 感谢各库的原作者！
 
