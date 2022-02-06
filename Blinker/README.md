@@ -1,6 +1,6 @@
 # APP使用方法
 
-1. 下载[Blinker app](https://diandeng.tech/doc/app-download)
+1. 下载[Blinker app](https://diandeng.tech/doc/app-download)，制作时使用的是2.5.7版本
 2. 注册登录
 3. 确保辉光钟已开启
 4. 点击右上角加号-独立设备-蓝牙接入-选择你的设备点击接入
