@@ -1,5 +1,6 @@
 ## esp32 为 esp32-wroom-32(4MB) esp32-wroom-32D也可以，辉光管为in-14
 ## TP1是170V升压电路的使能，为了测试其他元件时断开使用的，使用时需焊起来
+## BOM添加说明：L3与L4用焊锡连通，C33和C34不焊接。此为预留滤波电路，经过测试可以不使用
 ## 烧录指南
 <p float="left">
   <img src="https://github.com/flashorsink/NIXIE_Clock-esp32-arduino/blob/main/NIXIEClock_version3.2/%E7%83%A7%E5%BD%95.jpg" width="400" />
