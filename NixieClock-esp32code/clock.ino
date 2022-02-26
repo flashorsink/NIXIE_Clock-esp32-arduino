@@ -210,7 +210,7 @@ void setup ()
     now = Rtc.GetDateTime();
     oldtime=now;
     Rtc.Enable32kHzPin(false);
-    Rtc.SetSquareWavePin(DS3231SquareWavePin_ModeAlarmOne); //how many alarm you want, up to 2
+    Rtc.SetSquareWavePin(DS3231SquareWavePin_ModeNone); //how many alarm you want, up to 2
 /////////////////////RGB setup////////////////////////////////////
     strip.begin();
 /////////////////////RGB test/////////////////////////////////////
@@ -313,6 +313,7 @@ void loop ()
     if(clockflag){clockchange();clockflag=false;}
     if(RGBflag){RGBsever(false);RGBflag=false;}
     Clockshow();
+    Blinker.run();
     Alarmed();
     Touchpocess();  
     Storge();
@@ -1227,10 +1228,10 @@ void showalarm()
         if(day[5])strcat(str,"五");
         if(day[6])strcat(str,"六");
         if(day[0])strcat(str,"日");
-        if(alarmh<=9 && alarmm<=9)  sprintf(str,"%s 0%d:0%d",str,alarmh,alarmm);
-         else if(alarmh<=9)    sprintf(str,"%s 0%d:%d",str,alarmh,alarmm);
-         else if(alarmm<=9)    sprintf(str,"%s %d:0%d",str,alarmh,alarmm);
-         else   sprintf(str,"%s %d:%d",str,alarmh,alarmm);
+        // if(alarmh<=9 && alarmm<=9)  sprintf(str,"%s 0%d:0%d",str,alarmh,alarmm);
+        //  else if(alarmh<=9)    sprintf(str,"%s 0%d:%d",str,alarmh,alarmm);
+        //  else if(alarmm<=9)    sprintf(str,"%s %d:0%d",str,alarmh,alarmm);
+        sprintf(str,"%s %02d:%02d",str,alarmh,alarmm);
     }
     ALARM.print(str);
 }
